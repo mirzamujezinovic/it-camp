@@ -1,0 +1,39 @@
+
+.first{
+    width: 400px;
+    height: 400px;
+
+    background-image: url("https://t3.ftcdn.net/jpg/04/93/97/42/360_F_493974233_cOWJv8QskscxqJerjDaAwi3d3OSOGIw3.jpg");
+    /* background-repeat: no-repeat; ne ponavlja se */
+    background-repeat: no-repeat;
+    /* background-size: contain;razvlaci sliku do momenta dok ne stigne do prve ivice */
+    /* background-size: cover; razvlaci fotografiju kako bi pokrila ceo kontejner gubi se deo fotografije */
+    background-size: cover;
+    /* background-size: 300px 400px;
+    background-size: 100% 100%; */
+    overflow: scroll;
+    
+    
+    
+}
+.first:nth-of-type(2){
+    box-sizing: border-box;
+    padding: 15px;
+}
+*{
+    margin: 0px;
+}
+.first h1{
+    text-align: center;
+
+}
+
+.first h1,
+p{
+    color: rgb(255, 255, 255);
+}
+.first p{
+    line-height: 30px;
+    letter-spacing: 2px; /*razmak izmedju slova*/
+
+}

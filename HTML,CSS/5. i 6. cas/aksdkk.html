@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: beige;
+        }
+        /* h1 predstavlja css selektor, sto je zapravo pravilo pomocu kojeg pristupamo html elementu za koji zelimo da definisemo stilove */
+        h1 {
+            /* color predstavlja css property odnosno svojstvo */
+            color: blueviolet;
+        }
+        p{
+            /* font-size: 16px; standardna velicina slova je 16px */
+            font-size: 30px;
+            /* left je deafult vrednost */
+            text-indent: 40px; /*kao razmak ono dva prsta na pismenom xd*/
+            text-align: right;   /*primenice se poslednje definisano svojstvo*/
+            text-align: center;
+            text-align: justify;
+            text-align-last: right; /*poslednji deo teksta na koju hoces stranu*/
+            text-transform: uppercase; /*upercase je za velika slova*/
+            text-transform: capitalize; /*svaka rec pocinje sa velikim slovom*/
+            text-transform: lowercase; /*svaka rec sa malim slovom*/
+        }
+        ul{
+            list-style-position: inside;/*primice tackicu ka tekstu*/
+
+        }
+        /* tacka ide kada hocemo samo jedan div da oboji pozadinu nmp */
+        .prvi{
+            background-color:aqua;
+            width: 400px;
+            height: 400px;
+        }
+        #naslov{
+            color:rgb(128, 0, 255); 
+            /*id ima vecu vrednost nego klasa i to znaci da ce css to prvo da uradi lol*/
+            /* obicno cemo koristiti id ako zelimo da definisemo neki jedinstven element */
+        }
+        .naslov{
+            color: green;
+        }
+        .paragraf{
+            color: purple;
+        }
+        
+    
+
+
+    </style>
+</head>
+<body>
+
+    <!-- klasi prvi pristupamo za prefiksom . u css-u -->
+    <div class="prvi">
+        <h1>Danas radimo CSS (Cascanding style sheets)</h1> 
+        <!-- Jezik za definisanje stilova na nasoj stranici-->
+        <!-- id "naslov" pristupamo sa prefiksom # -->
+        <h2 id="naslov" class="naslov">CSS mozemo upotrebiti na nekoliko nacina</p>
+        <ul>
+            <li style="color:rgb(12, 15, 214); text-align: center;">Inline stilovi:</li>
+            <li>Stilovi definisani unutar head taga</li>
+            <li>Eksterni stilovi</li>
+            
+        </ul>
+    </div>
+    <div>
+        <h1>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur a unde adipisci, modi facere incidunt tempore ut accusantium distinctio corrupti iusto aperiam asperiores, sit excepturi possimus eos! Maxime, adipisci 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ad, aliquam provident itaque voluptate animi non voluptatum dolores nisi natus totam alias, quos iure praesentium hic architecto harum voluptas excepturi.
+            
+        </h1>
+        <p class="paragraf">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur a unde adipisci, modi facere incidunt tempore ut accusantium distinctio corrupti iusto aperiam asperiores, sit excepturi possimus eos! Maxime, adipisci et. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta est animi dolorem quo maxime delectus laboriosam rem perferendis suscipit sequi. Porro quo nisi natus, cumque exercitationem dolorem consequatur consequuntur possimus.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi a harum cum itaque ullam perspiciatis animi ratione neque ut, alias laborum earum autem libero non vero facere modi et quae.
+        </p>
+    </div>
+</body>
+</html>

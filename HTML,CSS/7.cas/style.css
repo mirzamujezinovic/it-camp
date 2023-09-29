@@ -1,0 +1,34 @@
+body{
+    background-color: blanchedalmond;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(180, 238, 150);
+    /*dotted:tackasti border*/
+    /* border: 3px double dupla linija */
+    /*border: 3px dashed iskosena*/
+    border: 3px solid  black;
+    /* margin: 50px; margina u odnosu na sve cetiri strane */
+    margin-top: 30px;/* margina u odnosu na gornji deo*/
+    margin-right: 30px;/* margina u odnosu na desnu stranu*/
+    margin-bottom:10px; /* margina u odnosu na donji element*/
+    margin-left: 20px;/*margina u odnosu na levu stranu*/
+    margin: 50px 40px 30px 20px;/*top right bottom left*/
+    margin: 50px 20px;/*top i bottom isto, right i left isto*/
+    margin: 50px 20px 35px; /*top, right i left, bottom*/
+    margin: auto;/*centrira tekst*/
+    margin: 30px auto;
+
+    padding: 10px 25px; /*rastojanje od naslova nmp od bordera itd*/
+    border-radius: 10px 5px 15px 0px; /*zaobljena linija*/
+    
+}
+.second{
+    /* width: 500px; */
+    /* height: 500px; */
+    background-color: rgb(47, 252, 146);
+}
+.main p{
+    text-align: justify;
+}

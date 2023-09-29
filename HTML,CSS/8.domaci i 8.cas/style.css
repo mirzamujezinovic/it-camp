@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+    
+}
+.card:hover{
+    background-color: hotpink;
+}
+.card{
+    margin: auto;
+    height: 650px;
+    width: 400px;
+    background-color: aqua;
+    border-radius: 10px ;
+    border: 3px solid  black;
+    box-shadow: 5px 5px 15px, -3px -3px 12px;
+    display: inline-block;
+    margin-left: 40px;
+    /* overflow: visible; deafult je */
+    /* overflow: hiden; hiden je */
+    /* overflow: scroll; daje scroll opciju*/
+    /* overflow-y: auto; samo se dodaje uspravno scroll y osa */
+    /*visibility:hiden skriva sve ili ono sto obelezim*/
+    }
+
+
+    /* BLOCK ELEMENTI HTML LEVEL: */
+    /* <h1> <h2> <h3> <h4> <h5> <h6>*/
+    /* <p> */
+    /* <div>, main, article, section, header, footer */
+    /* ol, li, ul */
+
+    /* INLINE BLOCK ELEMENTI HTML: */
+    /* <input>, <a>, <span>, <button>, <textarea> */
+    /* <img> tag je inline-block element- to su elementi koji definisanje sirine i visine za razliku od inline elemenata */
+    /* <img>  */ 
+/* .main:nth-last-of-type(2){
+    display: hidden;
+} */
+
+
+
+.second{
+    /* visibility: hidden; sakriva element i ostavlja prazninu */
+    display: none; /*ovo znaci da makne karticu i druga kartica dolazi na njegovo mesto :)*/
+    /* style:display: visibility: none;   ovo se pise na taj div pored class */
+    /* main */
+}
+img{
+    width: 400px;
+    height: 300px;
+    
+}
+.drugi{
+    text-transform: uppercase;
+    text-align: center;
+}
+.paragraf1{
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 14px;
+    
+
+}
+.paragraf2{
+    padding: 5px;
+    font-size: 19px;
+    text-indent: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align-last:right;
+
+}
+.card img:hover{
+    content: url("https://www.esferize.com/wp-content/uploads/2016/04/unnamed.png");
+}
