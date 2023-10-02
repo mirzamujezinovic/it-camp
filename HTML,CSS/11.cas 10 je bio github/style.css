@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    
+
+}
+body{
+    background-color:rgb(195, 253, 234);
+    font-family: 'Gabarito', cursive;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+}
+.main p{
+    font-size: 25px;
+}

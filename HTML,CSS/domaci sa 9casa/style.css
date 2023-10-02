@@ -6,11 +6,11 @@ body{
     background-color: antiquewhite;
 }
 .logo img{
-    width: 48px;
+    width: 50px;
     
 }
 header .chip{
-    width: 60px;
+    width: 65px;
     
 }
 .card{
@@ -18,7 +18,8 @@ header .chip{
     background-image: url("https://e1.pxfuel.com/desktop-wallpaper/979/214/desktop-wallpaper-credit-card-backgrounds-designs-posted-by-sarah-cunningham-card-design.jpg");
     padding: 25px;
     border-radius: 30px;
-    max-width: 450px;
+    /* zakrivljenje */
+    max-width: 435px;
     width: 100%;
     background-size: cover;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4)
