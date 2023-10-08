@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: #f0f2f5;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Lilita One', cursive;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.facebook{
+    margin-top: 200px;
+    height: 200px;
+    width: 500px;
+    background-color: rgba(250, 235, 215, 0);
+    float: left;
+    
+    
+    
+}
+.tekst{
+    margin-top: 20px;
+    font-weight: 40;
+}
+.slika{
+    height: 106px;
+    margin: -28px;
+}
+.sve{
+    
+    margin-left: 470px;
+}
+.prijava{
+    margin-top: 150px;
+    width: 450px;
+    height: 370px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    margin-left: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(72, 72, 72, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 400px;
+    
+}
+input{
+    width: 410px;
+    height: 50px;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 16px;
+    border-color: rgb(226, 238, 249);
+    padding: 14px;
+    
+}
+.sifra{
+    margin-top: 13px;
+    
+}
+a{
+    color: rgb(0, 60, 255);
+    
+}
+a:hover{
+    background-color: rgb(252, 247, 247);
+    color: aliceblue;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: rgb(0, 60, 255);
+}
+button{
+    width: 410px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: 700;
+    margin-top: 13px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.linija{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.novi{
+    background-color: rgb(80, 205, 23);
+    width: 250px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+.ispod{
+    margin-top: 50px;
+}
+p .page{
+    color: black;
+    text-decoration: none;
+    
+    font-weight: 900;
+}
+
+
+
