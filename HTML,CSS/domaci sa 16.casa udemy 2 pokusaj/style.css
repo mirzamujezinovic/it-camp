@@ -1,0 +1,283 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+    width: 100%;
+    height: 76px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08); 
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    padding: 4px;
+    /* z-index: 50px; */
+    position: fixed;
+}
+.logo{
+    width: 150px;
+    height: 76px; 
+}
+.kategorije a{
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.kategorije a:hover{
+    color: rgb(167, 2, 167);
+}
+
+.searchbar{
+    position: relative;
+    left: 20px;
+    border:1px solid black;
+    width: 900px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 30px; 
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.searchbar > input{
+    flex: 1;
+    background-color: whitesmoke;
+    border: none;
+    font-size: 20px;
+    width: 900px;
+    height: 35px;
+}
+
+.searchbar > i{
+    
+    cursor: pointer;
+
+}
+.linkovi{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.linkovi a{
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.teach{
+    position: relative;
+    left: 20px;
+}
+.learn{
+    position: relative;
+    left: 40px;
+}
+.linkovi a:hover{
+    color: rgb(167, 2, 167);
+}
+.link{
+    clear: both;
+    position: relative;
+    left: 150px;
+    align-items: center;
+
+}
+.srce:hover{
+    color: rgb(167, 2, 167);
+}
+.korpa{
+    position: relative;
+    left: 25px;
+}
+.zvono{
+    position: relative;
+    left: 50px;
+}
+.osoba{
+    position: relative;
+    left: 100px;
+}
+.drugi{
+
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid gray;
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    position: sticky;
+    top: 75px;
+    
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.drugi a{
+    display: inline;
+    margin-left: 20px  ;
+    font-size: 20px;
+    position: sticky;
+
+}
+.drugi a:hover{
+    color: rgb(167, 2, 167);
+    cursor: pointer;
+}
+.box1{
+    margin: auto;
+    height: 100vh;
+    background-color: aliceblue;
+    width: 75vw;
+    
+    
+
+}
+.box2{
+    /* background-color: rgb(237, 254, 131); */
+    background-image: url(https://www.theschoolrun.com/sites/theschoolrun.com/files/article_images/what_is_a_programming_language.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 500px;
+    width: 71vw;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:50px ;
+    
+    
+
+}
+.box3{
+    background-color: aliceblue;
+    width: 350px;
+    height: 150px;
+    padding: 15px;
+    margin-top: -75px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    margin-left: 50px;
+    
+    
+
+}
+.box3 p{
+    font-size: 20px;
+
+}
+.kartice{
+    width: 71vw;
+    height: 300px;
+    background-color: aliceblue;
+    margin-left: 50px;
+    margin-top: 60px;
+    float: left;
+}
+.kar{
+    margin-top: 20px;
+    width: 71vw;
+    height: 200px;
+    
+    background-color: aliceblue;
+    display: flex;
+}
+.lol a{
+    float: right;
+    margin-left: 855px;
+    text-decoration:underline;
+    color: purple;
+    font-size: 13px;
+}
+
+.kartice a{
+    float: right;
+    display: flex;
+
+}
+.kutija1 {
+    width: 450px;
+    height: 200px;
+    background-color:rgb(255, 235, 235);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    display: flex;
+    align-items: center;
+    border: 2px solid gray;
+}
+.kutija2{
+    width: 421px;
+    height: 200px;
+    background-color:rgb(255, 235, 235);
+    position: relative;
+    left: 20px;
+    right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    border: 2px solid grey;
+}
+.kutija3{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255, 235, 235);
+    position: relative;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; 
+    border: 2px solid gray;
+}
+.kutija1 img{
+    margin-left: 35px;
+    margin-right:20px ;
+}
+.kutija1 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.prvi{
+    margin-left: 10px;
+}
+.kutija1 a{
+    float: left;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    /* text-decoration:; */
+}
+.tekst {
+    margin-bottom: 10px;
+    display: flex;
+}
+.tekst a{
+    
+    text-align: right;
+
+}
+.kutija2{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.kutija2 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.kutija3{ 
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.kutija3 p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
